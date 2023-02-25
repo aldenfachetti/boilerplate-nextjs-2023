@@ -347,4 +347,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# sw stuff
+public/sw.js
+public/workbox-*.js
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,linux,windows,webstorm,visualstudiocode,node

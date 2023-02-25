@@ -84,12 +84,12 @@ exports[`<Main /> should render the headings 1`] = `
   <h1
     class="c3"
   >
-    Boilerplate
+    Boilerplate NextJS
   </h1>
   <h2
     class="c4"
   >
-    A simple project starter to work with ReactJS, NextJS, TypeScript and Styled-Components
+    ReactJS, TypeScript and Styled-Components
   </h2>
 </main>
 `

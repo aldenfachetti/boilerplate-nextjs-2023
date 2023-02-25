@@ -14,7 +14,7 @@
     }
   ],
   "background_color": "#06092B",
-  "description": "Boilerlate utilizando ReactJS, NextJS, TypeScript e Styled-Components",
+  "description": "ReactJS, TypeScript and Styled-Components",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#06092B"

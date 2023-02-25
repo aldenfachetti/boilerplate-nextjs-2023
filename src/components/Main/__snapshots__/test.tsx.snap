@@ -1,9 +1,95 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Main /> should render the heading 1`] = `
-<main>
-  <h1>
+exports[`<Main /> should render the headings 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  color: #ffffff;
+  background-color: #06092b;
+  text-align: center;
+}
+
+.c1 {
+  position: absolute;
+  width: 15rem;
+  top: 0;
+  margin: 16rem 0 0 5rem;
+}
+
+.c1:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+.c2 {
+  width: 35rem;
+  z-index: 1;
+}
+
+.c3 {
+  font-size: 2.5rem;
+  margin: 2rem 0 1rem;
+  text-shadow: 2px 2px 2px #000000;
+  z-index: 1;
+}
+
+.c3:hover {
+  color: #ccff33;
+}
+
+.c4 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px #000000;
+  z-index: 1;
+}
+
+.c4:hover {
+  color: #ccff33;
+}
+
+<main
+  class="c0"
+>
+  <img
+    alt="Imagem de um átomo simbolizando o icone do ReactJS com um texto ao lado escrito Boilerplate NextJS"
+    class="c1"
+    src="/img/logo-ufo.png"
+  />
+  <img
+    alt="Imagem ilustrativa do ufo no abduzindo o logo do React numa barraca de acampamento "
+    class="c2"
+    src="/img/hero-illustration.png"
+  />
+  <h1
+    class="c3"
+  >
     Boilerplate
   </h1>
+  <h2
+    class="c4"
+  >
+    A simple project starter to work with ReactJS, NextJS, TypeScript and Styled-Components
+  </h2>
 </main>
 `

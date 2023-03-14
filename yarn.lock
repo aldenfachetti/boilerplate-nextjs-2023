@@ -1376,13 +1376,6 @@
     "@types/node" "*"
     jest-mock "^29.5.0"
 
-"@jest/expect-utils@^29.4.3":
-  version "29.4.3"
-  resolved "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-29.4.3.tgz"
-  integrity sha512-/6JWbkxHOP8EoS8jeeTd9dTfc9Uawi+43oLKHfp6zzux3U2hqOOVnV3ai4RpDYHOccL6g+5nrxpoc8DmJxtXVQ==
-  dependencies:
-    jest-get-type "^29.4.3"
-
 "@jest/expect-utils@^29.5.0":
   version "29.5.0"
   resolved "https://registry.yarnpkg.com/@jest/expect-utils/-/expect-utils-29.5.0.tgz#f74fad6b6e20f924582dc8ecbf2cb800fe43a036"
@@ -3045,10 +3038,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*", "@types/jest@^29.4.0":
-  version "29.4.0"
-  resolved "https://registry.npmjs.org/@types/jest/-/jest-29.4.0.tgz"
-  integrity sha512-VaywcGQ9tPorCX/Jkkni7RWGFfI11whqzs8dvxF41P17Z+z872thvEvlIbznjPJ02kl1HMX3LmLOonsj2n7HeQ==
+"@types/jest@*", "@types/jest@^29.4.1":
+  version "29.4.1"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.4.1.tgz#d76cbd07e5a24c0f4e86c2c0f9ed9e4ed33af3c8"
+  integrity sha512-zDQSWXG+ZkEvs2zFFMszePhx4euKz+Yt3Gg1P+RHjfJBinTTr6L2DEyovO4V/WrKXuF0Dgn56GWGZPDa6TW9eQ==
   dependencies:
     expect "^29.0.0"
     pretty-format "^29.0.0"
@@ -6544,18 +6537,7 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
-expect@^29.0.0:
-  version "29.4.3"
-  resolved "https://registry.npmjs.org/expect/-/expect-29.4.3.tgz"
-  integrity sha512-uC05+Q7eXECFpgDrHdXA4k2rpMyStAYPItEDLyQDo5Ta7fVkJnNA/4zh/OIVkVVNZ1oOK1PipQoyNjuZ6sz6Dg==
-  dependencies:
-    "@jest/expect-utils" "^29.4.3"
-    jest-get-type "^29.4.3"
-    jest-matcher-utils "^29.4.3"
-    jest-message-util "^29.4.3"
-    jest-util "^29.4.3"
-
-expect@^29.5.0:
+expect@^29.0.0, expect@^29.5.0:
   version "29.5.0"
   resolved "https://registry.yarnpkg.com/expect/-/expect-29.5.0.tgz#68c0509156cb2a0adb8865d413b137eeaae682f7"
   integrity sha512-yM7xqUrCO2JdpFo4XpM82t+PJBFybdqoQuJLDGeDX2ij8NZzqRHyu3Hp188/JX7SWqud+7t4MUdvcgGBICMHZg==
@@ -8553,16 +8535,6 @@ jest-config@^29.5.0:
     slash "^3.0.0"
     strip-json-comments "^3.1.1"
 
-jest-diff@^29.4.3:
-  version "29.4.3"
-  resolved "https://registry.npmjs.org/jest-diff/-/jest-diff-29.4.3.tgz"
-  integrity sha512-YB+ocenx7FZ3T5O9lMVMeLYV4265socJKtkwgk/6YUz/VsEzYDkiMuMhWzZmxm3wDRQvayJu/PjkjjSkjoHsCA==
-  dependencies:
-    chalk "^4.0.0"
-    diff-sequences "^29.4.3"
-    jest-get-type "^29.4.3"
-    pretty-format "^29.4.3"
-
 jest-diff@^29.5.0:
   version "29.5.0"
   resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-29.5.0.tgz#e0d83a58eb5451dcc1fa61b1c3ee4e8f5a290d63"
@@ -8669,16 +8641,6 @@ jest-leak-detector@^29.5.0:
   dependencies:
     jest-get-type "^29.4.3"
     pretty-format "^29.5.0"
-
-jest-matcher-utils@^29.4.3:
-  version "29.4.3"
-  resolved "https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-29.4.3.tgz"
-  integrity sha512-TTciiXEONycZ03h6R6pYiZlSkvYgT0l8aa49z/DLSGYjex4orMUcafuLXYyyEDWB1RKglq00jzwY00Ei7yFNVg==
-  dependencies:
-    chalk "^4.0.0"
-    jest-diff "^29.4.3"
-    jest-get-type "^29.4.3"
-    pretty-format "^29.4.3"
 
 jest-matcher-utils@^29.5.0:
   version "29.5.0"
@@ -10947,16 +10909,7 @@ pretty-format@^27.0.2:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-pretty-format@^29.0.0, pretty-format@^29.4.3:
-  version "29.4.3"
-  resolved "https://registry.npmjs.org/pretty-format/-/pretty-format-29.4.3.tgz"
-  integrity sha512-cvpcHTc42lcsvOOAzd3XuNWTcvk1Jmnzqeu+WsOuiPmxUJTnkbAcFNsRKvEpBEUFVUgy/GTZLulZDcDEi+CIlA==
-  dependencies:
-    "@jest/schemas" "^29.4.3"
-    ansi-styles "^5.0.0"
-    react-is "^18.0.0"
-
-pretty-format@^29.5.0:
+pretty-format@^29.0.0, pretty-format@^29.4.3, pretty-format@^29.5.0:
   version "29.5.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.5.0.tgz#283134e74f70e2e3e7229336de0e4fce94ccde5a"
   integrity sha512-V2mGkI31qdttvTFX7Mt4efOqHXqJWMu4/r66Xh3Z3BwZaPfPJgp6/gbwoujRpPUtfEF6AUUWx3Jim3GCw5g/Qw==
